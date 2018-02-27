@@ -4,6 +4,27 @@
   line-height: 1.6;
 }
 
+html * {
+    box-sizing: border-box;
+}
+
+.mainNav ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+body {
+    margin: 0;
+}
+
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Hind', sans-serif;
 }
@@ -11,14 +32,65 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
 	font-size: 2em;
 	line-height: 1.6;
+    margin: 0px;
 }
+
 h2 {
 	font-size: 1.6em;
 	line-height: 1.4;
+    margin: 0px;
 }
 
-.mainClass{
+.mainClass {
+    height: 75vh;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
 
+}
+
+.mainTitle {
+
+}
+
+.mainPara {
+
+}
+
+.backgroundColorA {
+    background-color: #9ba29b;
+    background-size: 100%;
+}
+
+.backgroundColorB {
+    background-color: #b9b2a2;
+    background-size: 100%;
+}
+
+.paragraphBackground{
+    max-width: 100%;
+}
+
+.bodyText{
+    background-color: #b9b2a2;
+    background-size: 100%;
+}
+
+.mainNav {
+    padding: 1em;
+    width: 100%;
+    -webkit-box-shadow: 3px 3px 22px 0px rgba(155,162,155,0.65);
+    -moz-box-shadow: 3px 3px 22px 0px rgba(155,162,155,0.65);
+    box-shadow: 3px 3px 22px 0px rgba(155,162,155,0.65);
+}
+
+@media only screen and (min-width: 300px) {
+    .paragraphBackground{
+        float: right;
+    }
+    .bodyText{
+        text-align: center;
+    }
 }
 
 @media only screen and (min-width: 600px) {
