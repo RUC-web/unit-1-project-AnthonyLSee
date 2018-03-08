@@ -1,0 +1,7 @@
+Issues found:
+Unclosed HTML tag
+Nav inside wrong element
+Unnecessary additional div on homepage
+Margin not removed from subtitle
+Images don't size correctly at larger breakpoints
+Text container doesn't correctly center on page
